@@ -1,0 +1,5 @@
+sub SIZEODTA inline '(dta%[22],ukufil&)
+ $inline &H55, &H89, &HE5, &H1E, &HC4, &H7E, &H06, &HC5, &H76, &H0A
+ $inline &H83, &HC6, &H1A, &HA5, &HA5, &H1F, &H5D
+End Sub
+

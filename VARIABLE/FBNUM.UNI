@@ -1,0 +1,7 @@
+sub FBNUM inline '(start%, numersumber%, ygdicari%, banyakpencarian%, posisi%)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0A, &H8B, &H0C, &HC5
+ $inline &H76, &H0E, &H8A, &H24, &HC5, &H76, &H16, &H8B, &H14, &HC5
+ $inline &H76, &H12, &H01, &HD6, &H31, &HDB, &HE3, &H11, &HAC, &H38
+ $inline &HC4, &H74, &H04, &H43, &H49, &HEB, &HF5, &HC4, &H7E, &H06
+ $inline &H01, &HD3, &H26, &H89, &H1D, &H1F, &H5D
+End Sub

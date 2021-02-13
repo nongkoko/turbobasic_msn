@@ -1,0 +1,9 @@
+sub BAR640 inline 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &HAD, &HC5, &H76
+ $inline &H0A, &H8B, &H1C, &HB9, &H80, &H02, &HF7, &HE1, &H01, &HD8
+ $inline &HC5, &H76, &H0E, &H8E, &H04, &H89, &HC7, &HC5, &H76, &H16
+ $inline &H8B, &H1C, &HC5, &H76, &H1A, &H8B, &H14, &HC5, &H76, &H12
+ $inline &HAC, &H89, &HD9, &H89, &HCB, &H89, &HD1, &HF3, &HAA, &H29
+ $inline &HD7, &H81, &HC7, &H80, &H02, &H89, &HD9, &HE2, &HF0, &H1F
+ $inline &H5D
+End sub

@@ -1,0 +1,6 @@
+sub STR2NUM inline '(string$, offstr%, varnum%, offset%, banyak%) 
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H16, &H00, &H00, &HC5, &H76
+ $inline &H06, &H8B, &H0C, &HC5, &H76, &H0A, &HAD, &HC4, &H7E, &H0E
+ $inline &H01, &HC7, &HC5, &H76, &H12, &HAD, &HC5, &H76, &H16, &H8B
+ $inline &H74, &H02, &H01, &HC6, &H8E, &HDA, &HF3, &HA4, &H1F, &H5D
+End Sub

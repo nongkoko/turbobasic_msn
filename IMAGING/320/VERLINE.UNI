@@ -1,0 +1,9 @@
+sub VERLINE inline '(seg%, x%, y1%, y2%, w%) 
+ $inline &H55, &H8B, &HEC, &H1E, &HC5, &H76, &H16, &H8E, &H04, &HC5
+ $inline &H76, &H0A, &H8B, &H14, &HC5, &H76, &H0E, &H8B, &H0C, &H39
+ $inline &HD1, &H7C, &H02, &H87, &HD1, &H29, &HCA, &H42, &H8B, &HF9
+ $inline &HD1, &HE7, &HD1, &HE7, &H01, &HCF, &HD1, &HE7, &HD1, &HE7
+ $inline &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HC5, &H76
+ $inline &H12, &HAD, &H01, &HC7, &HC5, &H76, &H06, &HAC, &HAA, &H4A
+ $inline &H74, &H06, &H81, &HC7, &H3F, &H01, &HEB, &HF6, &H1F, &H5D
+End Sub

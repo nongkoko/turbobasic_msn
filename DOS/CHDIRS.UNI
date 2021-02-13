@@ -1,0 +1,6 @@
+sub CHDIRs inline'(dir$,erno%)
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H0A, &H8B, &H54, &H02, &HB8, &H00, &H3B, &H8E, &HDB, &HCD
+ $inline &H21, &H73, &H06, &HC4, &H7E, &H06, &H88, &HE0, &HAA, &H1F
+ $inline &H5D
+End sub

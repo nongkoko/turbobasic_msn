@@ -1,0 +1,5 @@
+sub GTDRV inline '(drv$) 
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HB4, &H19
+ $inline &HCD, &H21, &HC5, &H76, &H06, &H8B, &H7C, &H02, &H8E, &HC3
+ $inline &H04, &H41, &HAA, &H1F, &H5D
+End sub

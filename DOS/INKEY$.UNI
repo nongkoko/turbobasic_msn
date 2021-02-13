@@ -1,0 +1,11 @@
+sub INKEYs inline '(kode%)
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H06, &HB2, &HFF, &HCD, &H21
+ $inline &HC4, &H7E, &H06, &HAA, &H1F, &H5D
+End sub
+
+screen 0
+do
+ call inkeys(kode%)
+ locate 1,1 : ? kode%
+loop until instat
+

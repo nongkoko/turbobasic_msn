@@ -1,0 +1,5 @@
+sub NUM2NUMF inline '(numsum,offset,numtuj,banyak byte) 
+ $inline &H55, &H8B, &HEC, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H0E, &H8B, &H04, &HC5, &H76, &H12, &H01, &HC6, &HC4
+ $inline &H7E, &H0A, &HF2, &HA4, &H1F, &H5D
+End Sub

@@ -1,0 +1,5 @@
+sub PEEKW inline '(segmen, offset, variable word) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0A, &H8B, &H14, &HC5
+ $inline &H76, &H0E, &H8B, &H1C, &H8E, &HDB, &H89, &HD6, &HAD, &H1F
+ $inline &HC4, &H7E, &H06, &HAB, &H5D
+End sub

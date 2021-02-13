@@ -1,0 +1,5 @@
+sub TLFILNUM inline '(filehandler%, varnum%, offnum%, banyakbyte%) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H12, &H8B, &H1C, &HC5, &H76, &H0A, &HAD, &HC5, &H56
+ $inline &H0E, &H01, &HC2, &HB4, &H40, &HCD, &H21, &H1F, &H5D
+End Sub

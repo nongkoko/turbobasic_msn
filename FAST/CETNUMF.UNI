@@ -1,0 +1,8 @@
+sub CETNUMF inline '(segmen,  y,  x, numvar%, banyakbyte%, warna%)
+ $inline &H55, &H8B, &HEC, &H1E, &HC5, &H76, &H1A, &H8E, &H04, &HC5
+ $inline &H76, &H16, &HAD, &H8B, &HF8, &HD1, &HE7, &HD1, &HE7, &H01
+ $inline &HC7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1
+ $inline &HE7, &HC5, &H76, &H12, &HAD, &HD1, &HE0, &H01, &HC7, &HC5
+ $inline &H76, &H06, &HAC, &HC5, &H76, &H0A, &H8B, &H0C, &HC5, &H76
+ $inline &H0E, &HE3, &H05, &HA4, &HAA, &H49, &HEB, &HF9, &H1F, &H5D
+End Sub

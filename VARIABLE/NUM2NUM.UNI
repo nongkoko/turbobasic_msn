@@ -1,0 +1,6 @@
+sub NUM2NUM inline '(numsum%, offsum%, numtuj%, offtuj%, jumbyte%)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H0A, &HAD, &HC4, &H7E, &H0E, &H01, &HC7, &HC5, &H76
+ $inline &H12, &HAD, &HC5, &H76, &H16, &H01, &HC6, &HF3, &HA4, &H1F
+ $inline &H5D
+End Sub

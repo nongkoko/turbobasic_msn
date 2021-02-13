@@ -1,0 +1,5 @@
+sub UBHTGL inline 
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H2B, &HC5, &H76, &H06, &H8B
+ $inline &H0C, &HC5, &H76, &H0A, &H8A, &H34, &HC5, &H76, &H0E, &H8A
+ $inline &H14, &HCD, &H21, &H1F, &H5D
+End sub

@@ -1,0 +1,14 @@
+sub PANKAL inline '(memofont%[0], teks$, panjangpixel) 
+ $inline &H55, &H8B, &HEC, &H1E, &H6A, &H00, &H8B, &H1E, &H00, &H00
+ $inline &HC5, &H76, &H0A, &H8B, &H0C, &H83, &HF9, &H00, &H74, &H40
+ $inline &H8B, &H74, &H02, &H8E, &HDB, &H83, &HF9, &H00, &H74, &H4B
+ $inline &H49, &H8A, &H3C, &H46, &H1E, &H56, &H51, &HC5, &H76, &H0E
+ $inline &H8A, &H24, &HB6, &H00, &H8A, &HD4, &H46, &H31, &HC9, &HAC
+ $inline &H38, &HF8, &H74, &H07, &H41, &H4A, &H74, &H24, &HE9, &HF4
+ $inline &HFF, &H86, &HC4, &HB4, &H00, &H41, &H01, &HC8, &H8B, &HF0
+ $inline &HAC, &HB4, &H00, &H40, &H36, &H01, &H46, &HFC, &H59, &H5E
+ $inline &H1F, &HE9, &HC5, &HFF, &HC4, &H7E, &H06, &H26, &HC7, &H05
+ $inline &H00, &H00, &HEB, &H14, &H36, &H83, &H46, &HFC, &H03, &H59
+ $inline &H5E, &H1F, &HE9, &HB0, &HFF, &HC4, &H7E, &H06, &H36, &H8B
+ $inline &H46, &HFC, &H48, &HAB, &H58, &H1F, &H5D
+End Sub

@@ -1,0 +1,6 @@
+sub ABLWKT inline '(jam,menit,detik,perseratusdetik) 
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H2C, &HCD, &H21, &HC4, &H7E
+ $inline &H06, &H88, &HD0, &HAA, &HC4, &H7E, &H0A, &H88, &HF0, &HAA
+ $inline &HC4, &H7E, &H0E, &H88, &HC8, &HAA, &HC4, &H7E, &H12, &H88
+ $inline &HE8, &HAA, &H1F, &H5D
+End Sub

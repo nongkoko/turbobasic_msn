@@ -1,0 +1,6 @@
+sub SETATTR inline '(namafile$, attribut%)
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H06
+ $inline &H8B, &H0C, &HC5, &H76, &H0A, &H8B, &H54, &H02, &H8E, &HD8
+ $inline &HB8, &H01, &H43, &HCD, &H21, &H1F, &H5D
+End Sub
+

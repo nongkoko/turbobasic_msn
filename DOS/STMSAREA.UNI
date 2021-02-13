@@ -1,0 +1,6 @@
+sub STMSAREA inline '(xmin,ymin,xmax,ymax) 
+ $inline &H55, &H8B, &HEC, &H1E, &HC5, &H76, &H12, &H8B, &H0C, &HC5
+ $inline &H76, &H0A, &H8B, &H14, &HB0, &H07, &HCD, &H33, &HC5, &H76
+ $inline &H0E, &H8B, &H0C, &HC5, &H76, &H06, &H8B, &H14, &HB0, &H08
+ $inline &HCD, &H33, &H1F, &H5D
+End Sub

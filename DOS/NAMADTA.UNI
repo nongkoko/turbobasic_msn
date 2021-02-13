@@ -1,0 +1,6 @@
+sub NAMADTA inline '(dta%[22],nama$[12])
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H06
+ $inline &H8B, &H7C, &H02, &HC5, &H76, &H0A, &H83, &HC6, &H1E, &H8E
+ $inline &HC0, &HB9, &H0C, &H00, &HF3, &HA4, &H1F, &H5D
+End Sub
+

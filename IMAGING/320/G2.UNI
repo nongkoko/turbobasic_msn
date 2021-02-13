@@ -1,0 +1,44 @@
+sub G2 inline '(segmen,x1,y1,x2,y2,warna)
+ $inline &H55, &H8B, &HEC, &H1E, &H6A, &H00, &H6A, &H00, &H6A, &H00
+ $inline &HC5, &H76, &H1A, &H8E, &H04, &HC5, &H76, &H16, &H8B, &H04
+ $inline &HC5, &H76, &H0E, &H8B, &H1C, &H39, &HD8, &H74, &H10, &HC5
+ $inline &H76, &H12, &H8B, &H0C, &HC5, &H76, &H0A, &H8B, &H14, &H39
+ $inline &HD1, &H74, &H3A, &HEB, &H61, &HC5, &H76, &H12, &H8B, &H14
+ $inline &HC5, &H76, &H0A, &H8B, &H0C, &H39, &HD1, &H7F, &H02, &H87
+ $inline &HD1, &H8B, &HFA, &HD1, &HE7, &HD1, &HE7, &H01, &HD7, &HD1
+ $inline &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1
+ $inline &HE7, &H01, &HC7, &H29, &HD1, &H41, &HC5, &H76, &H06, &HAC
+ $inline &HAA, &H81, &HC7, &H3F, &H01, &H49, &H75, &HF8, &HE9, &H36
+ $inline &H01, &H39, &HD8, &H7C, &H01, &H93, &H8B, &HF9, &HD1, &HE7
+ $inline &HD1, &HE7, &H01, &HCF, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7
+ $inline &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &H01, &HC7, &H8B, &HCB
+ $inline &H29, &HC1, &H41, &HC5, &H76, &H06, &HAC, &HF2, &HAA, &HE9
+ $inline &H0D, &H01, &H36, &H89, &H56, &HFA, &H29, &HCA, &H83, &HFA
+ $inline &H00, &H7F, &H03, &HF7, &HD2, &H42, &H36, &H89, &H5E, &HFC
+ $inline &H29, &HC3, &H83, &HFB, &H00, &H7F, &H03, &HF7, &HD3, &H43
+ $inline &H39, &HDA, &H7F, &H76, &H36, &H3B, &H46, &HFC, &H7C, &H08
+ $inline &H36, &H87, &H46, &HFC, &H36, &H87, &H4E, &HFA, &H36, &H8B
+ $inline &H56, &HFA, &H29, &HCA, &H83, &HFA, &H00, &H7F, &H0B, &H36
+ $inline &HC7, &H46, &HF8, &HC0, &HFE, &HF7, &HD2, &H42, &HEB, &H06
+ $inline &H36, &HC7, &H46, &HF8, &H40, &H01, &H8B, &HF9, &HD1, &HE7
+ $inline &HD1, &HE7, &H01, &HCF, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7
+ $inline &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &H01, &HC7, &H8B, &HCB
+ $inline &H8B, &HDA, &H29, &HCB, &HD1, &HE3, &HD1, &HE2, &H8B, &HC2
+ $inline &H29, &HC8, &H41, &H36, &H89, &H46, &HFC, &HC5, &H76, &H06
+ $inline &HAC, &HAA, &H36, &H83, &H7E, &HFC, &H00, &H7C, &H0E, &H36
+ $inline &H01, &H5E, &HFC, &H36, &H03, &H7E, &HF8, &H49, &H75, &HED
+ $inline &HE9, &H80, &H00, &H36, &H01, &H56, &HFC, &H49, &H75, &HE3
+ $inline &HEB, &H77, &H36, &H3B, &H4E, &HFA, &H7C, &H08, &H36, &H87
+ $inline &H4E, &HFA, &H36, &H87, &H46, &HFC, &H36, &H8B, &H5E, &HFC
+ $inline &H29, &HC3, &H83, &HFB, &H00, &H7F, &H0B, &HF7, &HD3, &H43
+ $inline &H36, &HC7, &H46, &HF8, &HFF, &HFF, &HEB, &H06, &H36, &HC7
+ $inline &H46, &HF8, &H01, &H00, &H8B, &HF9, &HD1, &HE7, &HD1, &HE7
+ $inline &H01, &HCF, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7
+ $inline &HD1, &HE7, &HD1, &HE7, &H01, &HC7, &H8B, &HCA, &H8B, &HC3
+ $inline &HD1, &HE0, &H8B, &HD0, &H29, &HC8, &H36, &H89, &H46, &HFC
+ $inline &H29, &HCB, &HD1, &HE3, &H41, &HC5, &H76, &H06, &HAC, &HAA
+ $inline &H81, &HC7, &H3F, &H01, &H36, &H83, &H7E, &HFC, &H00, &H7C
+ $inline &H0D, &H36, &H01, &H5E, &HFC, &H36, &H03, &H7E, &HF8, &H49
+ $inline &H75, &HE9, &HEB, &H07, &H36, &H01, &H56, &HFC, &H49, &H75
+ $inline &HE0, &H58, &H58, &H58, &H1F, &H5D
+End Sub

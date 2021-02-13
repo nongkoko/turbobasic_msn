@@ -1,0 +1,11 @@
+sub INSTALfont inline '(memorihuruf%[setengahukuranfile], namafont$, erno%)
+ $inline &H55, &H8B, &HEC, &H1E, &H8B, &H1E, &H00, &H00, &HB9, &H16
+ $inline &H00, &H50, &H49, &H75, &HFC, &HB4, &H1A, &H16, &H1F, &H8B
+ $inline &HD4, &HCD, &H21, &HB4, &H4E, &HB9, &H17, &H00, &HC5, &H76
+ $inline &H0A, &H8B, &H54, &H02, &H8E, &HDB, &HCD, &H21, &H72, &H02
+ $inline &HEB, &H09, &HC4, &H7E, &H06, &HB8, &H02, &H00, &HAB, &HEB
+ $inline &H1A, &H8B, &HF4, &H83, &HC6, &H1A, &H36, &H8B, &H0C, &HB8
+ $inline &H00, &H3D, &HCD, &H21, &H8B, &HD8, &HB4, &H3F, &HC5, &H56
+ $inline &H0E, &HCD, &H21, &HB4, &H3E, &HCD, &H21, &HB9, &H16, &H00
+ $inline &H58, &H49, &H75, &HFC, &H1F, &H5D
+End Sub

@@ -1,0 +1,10 @@
+sub BAR2 inline '(panjang, lebar, warna, segmen, x, y)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0E, &H8E, &H04, &HC5
+ $inline &H76, &H06, &HAD, &H89, &HC7, &HD1, &HE7, &HD1, &HE7, &H01
+ $inline &HC7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1
+ $inline &HE7, &HD1, &HE7, &HC5, &H76, &H0A, &HAD, &H01, &HC7, &HC5
+ $inline &H76, &H16, &H8B, &H1C, &HC5, &H76, &H1A, &H8B, &H0C, &HC5
+ $inline &H76, &H12, &HAC, &H89, &HCA, &HF3, &HAA, &H4B, &H74, &H0A
+ $inline &H81, &HC7, &H40, &H01, &H29, &HD7, &H89, &HD1, &HEB, &HF1
+ $inline &H1F, &H5D
+End sub

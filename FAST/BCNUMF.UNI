@@ -1,0 +1,5 @@
+sub BCNUMF inline '(handler%, num, banyak) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H0E, &H8B, &H1C, &HC5, &H56, &H0A, &HB4, &H3F, &HCD
+ $inline &H21, &H1F, &H5D
+End Sub

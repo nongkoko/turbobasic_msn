@@ -1,0 +1,9 @@
+sub FBSTR inline '(str$, char%, start%, bancari%, pos%)
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H0A, &H8B, &H0C, &HC5, &H76, &H12, &H8A, &H24, &HC5, &H76
+ $inline &H0E, &H8B, &H14, &HC5, &H76, &H16, &H8B, &H74, &H02, &H01
+ $inline &HD6, &H8E, &HDB, &H31, &HDB, &HE3, &H09, &HAC, &H38, &HC4
+ $inline &H74, &H0D, &H49, &H43, &HEB, &HF5, &HB8, &HFF, &HFF, &HC4
+ $inline &H7E, &H06, &HAB, &HEB, &H08, &H01, &HD3, &HC4, &H7E, &H06
+ $inline &H26, &H89, &H1D, &H1F, &H5D
+End Sub

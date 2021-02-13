@@ -1,0 +1,5 @@
+sub tlfilmem inline '(filehandler, segmen, offset, banyak) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H12, &H8B, &H1C, &HB4, &H40, &HC5, &H76, &H0A, &H8B
+ $inline &H14, &HC5, &H76, &H0E, &H8E, &H1C, &HCD, &H21, &H1F, &H5D
+End sub

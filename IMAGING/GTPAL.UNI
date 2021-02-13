@@ -1,0 +1,8 @@
+sub GTPAL inline '(warna,r,g,b) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H12, &H8A, &H0C, &HBA
+ $inline &HC8, &H03, &H88, &HC8, &HEE, &HBA, &HC9, &H03, &HEC, &H88
+ $inline &HC4, &HEC, &H88, &HC3, &HEC, &HBA, &HC8, &H03, &H88, &HC8
+ $inline &HEE, &HBA, &HC9, &H03, &HEC, &H88, &HC4, &HEC, &H88, &HC3
+ $inline &HEC, &HC4, &H7E, &H06, &HAA, &HC4, &H7E, &H0A, &H88, &HD8
+ $inline &HAA, &HC4, &H7E, &H0E, &H88, &HE0, &HAA, &H1F, &H5D
+End sub

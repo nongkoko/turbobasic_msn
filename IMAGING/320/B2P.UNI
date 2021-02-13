@@ -1,0 +1,8 @@
+sub B2P inline (byte, warna, segmen, offset)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H3C, &HC5
+ $inline &H76, &H0A, &H8E, &H04, &HC5, &H76, &H0E, &H8A, &H04, &HC5
+ $inline &H76, &H12, &H8B, &H1C, &HB2, &H01, &HB9, &H08, &H00, &HFC
+ $inline &H88, &HDF, &H20, &HD7, &H74, &H02, &HAA, &H4F, &H81, &HC7
+ $inline &H40, &H01, &HD0, &HE2, &HE2, &HF0, &H1F, &H5D
+End sub
+

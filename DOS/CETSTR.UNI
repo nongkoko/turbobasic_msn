@@ -1,0 +1,12 @@
+sub CETSTR inline '(seg   ,y   ,x  ,array_name  ,elemenno ,attr%)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H16, &H8B, &H04, &HBB
+ $inline &H05, &H00, &HF7, &HE3, &HD1, &HE0, &HD1, &HE0, &HD1, &HE0
+ $inline &HD1, &HE0, &HD1, &HE0, &HC5, &H76, &H12, &H8B, &H0C, &HD1
+ $inline &HE1, &H01, &HC8, &H89, &HC7, &HC5, &H76, &H1A, &H8E, &H04
+ $inline &HC5, &H76, &H06, &H8A, &H1C, &HC5, &H76, &H0A, &H8B, &H0C
+ $inline &HC5, &H76, &H0E, &H49, &HE3, &H0C, &HAC, &H3C, &HFF, &H74
+ $inline &H02, &HEB, &HF9, &H49, &HE3, &H02, &HEB, &HF4, &HAC, &H3C
+ $inline &HFF, &H74, &H06, &HAA, &H88, &HD8, &HAA, &HEB, &HF5, &H1F
+ $inline &H5D
+End sub
+

@@ -1,0 +1,5 @@
+sub POINTER inline '(array(), seg%)
+ $inline &H55, &H89, &HE5, &H1E, &HC4, &H7E, &H06, &HC5, &H76, &H0A
+ $inline &H8C, &HD8, &HAB, &H1F, &H5D
+End sub
+

@@ -1,0 +1,14 @@
+sub VP2 inline '(nama,segm,x,y) non transparent non buff
+ $inline &H55, &H8B, &HEC, &H1E, &H6A, &H00, &H6A, &H00, &H8B, &H1E
+ $inline &H00, &H00, &HC5, &H76, &H0E, &H8E, &H04, &HC5, &H76, &H06
+ $inline &HAD, &H8B, &HF8, &HD1, &HE7, &HD1, &HE7, &H01, &HC7, &HD1
+ $inline &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1, &HE7, &HD1
+ $inline &HE7, &HC5, &H76, &H0A, &HAD, &H01, &HC7, &HC5, &H76, &H12
+ $inline &H8B, &H54, &H02, &H8E, &HDB, &HB8, &H00, &H3D, &HCD, &H21
+ $inline &H8B, &HD8, &HB4, &H3F, &HB9, &H04, &H00, &H16, &H1F, &H8B
+ $inline &HD4, &HCD, &H21, &H8B, &HD7, &HB4, &H3F, &H06, &H1F, &H36
+ $inline &H8B, &H4E, &HFA, &HCD, &H21, &H81, &HC2, &H40, &H01, &H36
+ $inline &HFF, &H4E, &HFC, &H75, &HEC, &HB4, &H3E, &HCD, &H21, &H58
+ $inline &H58, &H1F, &H5D
+End Sub
+

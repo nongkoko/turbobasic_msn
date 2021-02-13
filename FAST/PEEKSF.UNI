@@ -1,0 +1,7 @@
+sub PEEKS inline '(Segmen, Offset, StringTujuan$)
+ $inline &H55, &H89, &HE5, &H1E, &H8E, &H06, &H00, &H00, &HC5, &H76
+ $inline &H06, &H8B, &H0C, &H8B, &H7C, &H02, &HC5, &H76, &H0E, &H8B
+ $inline &H04, &HC5, &H76, &H0A, &H8B, &H34, &H8E, &HD8, &HF3, &HA4
+ $inline &H1F, &H5D
+End sub
+

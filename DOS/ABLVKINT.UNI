@@ -1,0 +1,5 @@
+sub ABLVKINT inline '(no_int,seg,off) 
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H35, &HC5, &H76, &H0E, &H8A
+ $inline &H04, &HCD, &H21, &H8C, &HC0, &HC4, &H7E, &H0A, &HAB, &H89
+ $inline &HD8, &HC4, &H7E, &H06, &HAB, &H1F, &H5D
+End Sub

@@ -1,0 +1,5 @@
+sub ATTRDTA inline '(dta%[22], attribut%)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0A, &HC4, &H7E, &H06
+ $inline &H83, &HC6, &H15, &HA4, &H1F, &H5D
+End Sub
+

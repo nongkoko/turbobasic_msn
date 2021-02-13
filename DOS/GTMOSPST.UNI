@@ -1,0 +1,5 @@
+sub GTMOSPST inline '(xm%, ym%, tm%) 
+ $inline &H55, &H89, &HE5, &H1E, &HB8, &H03, &H00, &HCD, &H33, &HC5
+ $inline &H76, &H06, &H89, &H1C, &HC5, &H76, &H0A, &H89, &H14, &HC5
+ $inline &H76, &H0E, &H89, &H0C, &H1F, &H5D
+End Sub

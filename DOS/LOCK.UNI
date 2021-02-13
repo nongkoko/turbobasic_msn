@@ -1,0 +1,5 @@
+sub LOCK inline '(ascii) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8A, &H1C, &H31
+ $inline &HC0, &HCD, &H16, &H38, &HD8, &H74, &H02, &HEB, &HF6, &H1F
+ $inline &H5D
+End sub

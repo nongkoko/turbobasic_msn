@@ -1,0 +1,7 @@
+sub BTFIL inline '(NAMFIL$, atribut%, hand%)
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H0A, &H8B, &H0C, &HC5, &H76, &H0E, &H8B, &H54, &H02, &H8E
+ $inline &HDB, &HB4, &H3C, &HCD, &H21, &H72, &H06, &HC4, &H7E, &H06
+ $inline &HAB, &HEB, &H06, &HB4, &H80, &HC4, &H7E, &H06, &HAB, &H1F
+ $inline &H5D
+End Sub

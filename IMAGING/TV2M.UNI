@@ -1,0 +1,9 @@
+sub TV2M inline 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H3C, &HC5
+ $inline &H76, &H0A, &H8E, &H04, &HC5, &H76, &H0E, &H8B, &H14, &HC5
+ $inline &H76, &H12, &H8B, &H1C, &H53, &H52, &HC5, &H76, &H16, &H8B
+ $inline &H14, &HC5, &H76, &H1A, &H8B, &H1C, &H89, &HD6, &H8E, &HDB
+ $inline &H5A, &H5B, &H89, &HD8, &HAB, &H89, &HD0, &HAB, &H89, &HD1
+ $inline &H89, &HCA, &H56, &H89, &HD9, &HF3, &HA4, &H5E, &H81, &HC6
+ $inline &H40, &H01, &H89, &HD1, &HE2, &HF0, &H1F, &H5D
+End sub

@@ -1,0 +1,7 @@
+sub PALMEM inline '(segmen%, offset%)
+ $inline &H55, &H89, &HE5, &H1E, &HB0, &H00, &HBA, &HC8, &H03, &HEE
+ $inline &HC5, &H76, &H0A, &HAD, &HC5, &H76, &H06, &H8B, &H34, &H8E
+ $inline &HD8, &HB9, &H00, &H01, &HBB, &H03, &H00, &HAC, &HBA, &HC9
+ $inline &H03, &HEE, &H4B, &H75, &HF8, &H49, &H74, &H02, &HEB, &HF0
+ $inline &H1F, &H5D
+End sub

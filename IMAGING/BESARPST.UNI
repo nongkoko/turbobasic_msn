@@ -1,0 +1,7 @@
+sub besarpst inline '(namafile$,  x%,   y%) 
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H0E
+ $inline &H8B, &H54, &H02, &H8E, &HD8, &H1E, &H52, &HB8, &H00, &H3D
+ $inline &HCD, &H21, &H89, &HC3, &HC5, &H56, &H0A, &HB9, &H02, &H00
+ $inline &HB4, &H3F, &HCD, &H21, &HC5, &H56, &H06, &HB4, &H3F, &HCD
+ $inline &H21, &HB4, &H3E, &H5A, &H1F, &HCD, &H21, &H1F, &H5D
+End Sub

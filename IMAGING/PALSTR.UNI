@@ -1,0 +1,6 @@
+sub PALSTR inline '(strin768char$)
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H06
+ $inline &H8B, &H74, &H02, &H8E, &HD8, &HBA, &HC8, &H03, &H31, &HC0
+ $inline &HEE, &HBA, &HC9, &H03, &HB9, &H00, &H01, &HAC, &HEE, &HAC
+ $inline &HEE, &HAC, &HEE, &HE0, &HF8, &H1F, &H5D
+End Sub

@@ -1,0 +1,10 @@
+sub INSTRREV inline '(master$, char%, start%, pos%)
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H0E, &H8A, &H24, &HC5, &H76, &H0A, &H8B, &H14, &HC5, &H76
+ $inline &H12, &H8B, &H0C, &H8B, &H74, &H02, &H8E, &HDB, &H39, &HCA
+ $inline &H7F, &H25, &H01, &HD6, &H4E, &H89, &HD3, &H83, &HFB, &H00
+ $inline &H74, &H0A, &HAC, &H38, &HC4, &H74, &H0E, &H4E, &H4E, &H4B
+ $inline &HEB, &HF1, &HB8, &H00, &H00, &HC4, &H7E, &H06, &HAB, &HEB
+ $inline &H0F, &HC4, &H7E, &H06, &H26, &H89, &H1D, &HEB, &H07, &HB8
+ $inline &HFF, &HFF, &HC4, &H7E, &H06, &HAB, &H1F, &H5D
+End Sub

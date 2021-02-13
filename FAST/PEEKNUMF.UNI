@@ -1,0 +1,5 @@
+sub peeknum inline '(segmen, offset, varnum, banyakbyte) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H0E, &H8B, &H14, &HC5, &H76, &H12, &H8E, &H1C, &H89
+ $inline &HD6, &HC4, &H7E, &H0A, &HF3, &HA4, &H1F, &H5D
+End sub

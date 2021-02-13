@@ -1,0 +1,10 @@
+sub SAVEPAL inline '(bufferint%[384], namafile$)
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HB4, &H3C
+ $inline &HC5, &H76, &H06, &H8B, &H54, &H02, &HB9, &H00, &H00, &H8E
+ $inline &HDB, &HCD, &H21, &H72, &H2B, &H1E, &H52, &HC4, &H7E, &H0A
+ $inline &H50, &HB9, &H00, &H01, &H31, &HC0, &HBA, &HC8, &H03, &HEE
+ $inline &HBA, &HC9, &H03, &HEC, &HAA, &HEC, &HAA, &HEC, &HAA, &HE0
+ $inline &HF8, &HB4, &H40, &HC5, &H56, &H0A, &H5B, &HB9, &H00, &H03
+ $inline &HCD, &H21, &HB4, &H3E, &H5A, &H1F, &HCD, &H21, &H1F, &H5D
+End Sub
+

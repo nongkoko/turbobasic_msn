@@ -1,0 +1,5 @@
+sub gtdir inline '(dir$) panjang string secukupnya
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H06, &H8B, &H74, &H02, &HB8, &H00, &H47, &H8E, &HDB, &HBA
+ $inline &H00, &H00, &HCD, &H21, &H1F, &H5D
+End sub

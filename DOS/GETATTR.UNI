@@ -1,0 +1,5 @@
+sub GETATTR inline '(namafile$, attribut%)
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H0A
+ $inline &H8B, &H54, &H02, &H8E, &HD8, &HB8, &H00, &H43, &HCD, &H21
+ $inline &HC5, &H76, &H06, &H89, &H0C, &H1F, &H5D
+End Subub

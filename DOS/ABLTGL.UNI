@@ -1,0 +1,5 @@
+sub ABLTGL inline '(tgl,bulan,tahun) 
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H2A, &HCD, &H21, &HC4, &H7E
+ $inline &H0E, &H88, &HD0, &HAA, &HC4, &H7E, &H0A, &H88, &HF0, &HAA
+ $inline &HC4, &H7E, &H06, &H89, &HC8, &HAB, &H1F, &H5D
+End Sub

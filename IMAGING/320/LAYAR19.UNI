@@ -1,0 +1,3 @@
+sub LAYAR19 inline 
+ $inline &HB8, &H13, &H00, &HCD, &H10
+End sub

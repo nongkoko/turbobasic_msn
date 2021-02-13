@@ -1,0 +1,9 @@
+sub PPIMG inline '(SEGSUM,OFFSUM,SEGTUJ,OFFTUJ) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H3C, &HC5
+ $inline &H76, &H0A, &H8E, &H04, &HC5, &H76, &H0E, &H8B, &H1C, &HC5
+ $inline &H76, &H12, &H8B, &H14, &H8E, &HDA, &H89, &HDE, &HAD, &H89
+ $inline &HC3, &HAD, &H89, &HC2, &H89, &HD1, &HFC, &H89, &HCA, &H57
+ $inline &H89, &HD9, &HAC, &H08, &HC0, &H74, &H02, &HAA, &H4F, &H47
+ $inline &HE2, &HF6, &H5F, &H81, &HC7, &H40, &H01, &H89, &HD1, &HE2
+ $inline &HE8, &H1F, &H5D
+End sub

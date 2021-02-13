@@ -1,0 +1,5 @@
+sub STPSS inline '(y,x,page) set posisi
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8A, &H3C, &HC5
+ $inline &H76, &H0A, &H8A, &H14, &HC5, &H76, &H0E, &H8A, &H34, &HB4
+ $inline &H02, &HCD, &H10, &H1F, &H5D
+End sub

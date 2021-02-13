@@ -1,0 +1,8 @@
+sub UKFIL2 inline '(namafile$+chr$[0], ukuranfile&)
+ $inline &H55, &H8B, &HEC, &H1E, &HB9, &H16, &H00, &H50, &H49, &H75
+ $inline &HFC, &H8B, &H1E, &H00, &H00, &H8B, &HD4, &H16, &H1F, &H1E
+ $inline &H52, &HB4, &H1A, &HCD, &H21, &HC5, &H76, &H0A, &H8B, &H54
+ $inline &H02, &HB9, &H17, &H00, &H8E, &HDB, &HB4, &H4E, &HCD, &H21
+ $inline &H5E, &H1F, &H83, &HC6, &H1A, &HC4, &H7E, &H06, &HA5, &HA5
+ $inline &HB9, &H16, &H00, &H58, &H49, &H75, &HFC, &H1F, &H5D
+End Sub

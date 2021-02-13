@@ -1,0 +1,4 @@
+sub PDHARGAM inline 
+ $inline &H55, &H89, &HE5, &H1E, &HB8, &H05, &H4F, &HBB, &H00, &H00
+ $inline &HC5, &H76, &H06, &H8B, &H14, &HCD, &H10, &H1F, &H5D
+End sub

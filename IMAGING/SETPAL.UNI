@@ -1,0 +1,6 @@
+sub SETPAL inline '(COLORNUMBER,R,G,B) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H12, &H8A, &H04, &HBA
+ $inline &HC8, &H03, &HEE, &HBA, &HC9, &H03, &HC5, &H76, &H0E, &H8A
+ $inline &H04, &HEE, &HC5, &H76, &H0A, &H8A, &H04, &HEE, &HC5, &H76
+ $inline &H06, &H8A, &H04, &HEE, &H1F, &H5D
+End sub

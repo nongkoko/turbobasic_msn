@@ -1,0 +1,6 @@
+sub STR2STRF inline '(str1$, off1%, str2$, banyakbyte%)
+ $inline &H55, &H8B, &HEC, &H1E, &H8B, &H1E, &H00, &H00, &HC5, &H76
+ $inline &H06, &H8B, &H0C, &HC5, &H76, &H0A, &H8B, &H7C, &H02, &HC5
+ $inline &H76, &H0E, &HAD, &HC5, &H76, &H12, &H8B, &H74, &H02, &H01
+ $inline &HC6, &H8E, &HDB, &H8E, &HC3, &HF3, &HA4, &H1F, &H5D
+End Sub

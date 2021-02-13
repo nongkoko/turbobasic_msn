@@ -1,0 +1,9 @@
+sub IMGSCRDN inline '(layar,jarakscrol) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H1C, &HC5
+ $inline &H76, &H0A, &H8E, &H1C, &H1E, &H07, &H31, &HF6, &H31, &HFF
+ $inline &HBA, &HC8, &H00, &H4A, &H89, &HD6, &HD1, &HE6, &HD1, &HE6
+ $inline &H01, &HD6, &HD1, &HE6, &HD1, &HE6, &HD1, &HE6, &HD1, &HE6
+ $inline &HD1, &HE6, &HD1, &HE6, &H89, &HF7, &H81, &HC7, &H40, &H01
+ $inline &HB9, &HA0, &H00, &HF3, &HA5, &H89, &HD1, &HE3, &H02, &HEB
+ $inline &HDA, &H4B, &H74, &H02, &HEB, &HD2, &H1F, &H5D
+End sub

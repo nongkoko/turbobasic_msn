@@ -1,0 +1,11 @@
+sub BS2P640 inline (SEGSUM,OFFSUM,SEGTUJ,OFFTUJ,WARNA,BANYAK)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8B, &H14, &HC5
+ $inline &H76, &H0A, &H8A, &H24, &HC5, &H76, &H0E, &H8B, &H3C, &HC5
+ $inline &H76, &H12, &H8E, &H04, &HC5, &H76, &H16, &H8B, &H0C, &HC5
+ $inline &H76, &H1A, &H8B, &H1C, &H8E, &HDB, &H89, &HCE, &H89, &HD1
+ $inline &HFC, &H89, &HCA, &H57, &HAC, &HB3, &H01, &HB9, &H08, &H00
+ $inline &H50, &H88, &HC7, &H20, &HDF, &H74, &H04, &H88, &HE0, &HAA
+ $inline &H4F, &H81, &HC7, &H80, &H02, &H58, &HD0, &HE3, &HE2, &HEC
+ $inline &H5F, &H47, &H89, &HD1, &HE2, &HDD, &H1F, &H5D
+End sub
+

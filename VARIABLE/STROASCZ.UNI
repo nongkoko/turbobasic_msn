@@ -1,0 +1,6 @@
+sub STROASCZ inline '(string$,Lennya)
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &H31, &HDB, &HC5
+ $inline &H76, &H0A, &H8B, &H0C, &H8B, &H74, &H02, &H8E, &HD8, &HE3
+ $inline &H09, &HAC, &H3C, &H00, &H74, &H04, &H43, &H49, &HEB, &HF5
+ $inline &H89, &HD8, &HC4, &H7E, &H06, &HAB, &H1F, &H5D
+End Sub

@@ -1,0 +1,4 @@
+sub INT2BYTE inline '(int%, high%, low%) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0E, &HAD, &HC4, &H7E
+ $inline &H06, &HAA, &H88, &HE0, &HC4, &H7E, &H0A, &HAA, &H1F, &H5D
+End Sub

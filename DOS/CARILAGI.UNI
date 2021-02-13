@@ -1,0 +1,5 @@
+sub CARILAGI inline '(dta%[22],erno%) 
+ $inline &H55, &H89, &HE5, &H1E, &HB4, &H1A, &HC5, &H56, &H0A, &HCD
+ $inline &H21, &HB8, &H00, &H4F, &HCD, &H21, &H30, &HE4, &HC4, &H7E
+ $inline &H06, &HAB, &H1F, &H5D
+End Sub

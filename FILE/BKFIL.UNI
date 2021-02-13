@@ -1,0 +1,8 @@
+sub BKFIL inline '(namafile$, akses, filehandler%) 'akses 0read1write2readwrite
+ $inline &H55, &H89, &HE5, &H1E, &H8B, &H1E, &H00, &H00, &HB4, &H3D
+ $inline &HC5, &H76, &H0A, &HAC, &HC5, &H76, &H0E, &H8B, &H54, &H02
+ $inline &H8E, &HDB, &HCD, &H21, &H72, &H08, &HB4, &H00, &HC4, &H7E
+ $inline &H06, &HAB, &HEB, &H06, &HB4, &H80, &HC4, &H7E, &H06, &HAB
+ $inline &H1F, &H5D
+End Sub
+

@@ -1,0 +1,8 @@
+sub PALFILE inline '(384buffer%(0), namafile) 
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &HC5, &H76, &H06
+ $inline &H8B, &H54, &H02, &H8E, &HD8, &HB8, &H00, &H3D, &HCD, &H21
+ $inline &H1E, &H52, &H50, &H89, &HC3, &HB4, &H3F, &HC5, &H56, &H0A
+ $inline &HB9, &H00, &H03, &HCD, &H21, &H89, &HD6, &HBA, &HC8, &H03
+ $inline &HB0, &H00, &HEE, &HBA, &HC9, &H03, &HAC, &HEE, &HE0, &HFC
+ $inline &H5B, &H5A, &H1F, &HB4, &H3E, &HCD, &H21, &H1F, &H5D
+End sub

@@ -1,0 +1,5 @@
+sub oneKEY inline '(codeno2,kode1)
+ $inline &H55, &H89, &HE5, &H1E, &H31, &HC0, &HCD, &H16, &HC4, &H7E
+ $inline &H06, &HAA, &HC4, &H7E, &H0A, &H88, &HE0, &HAA, &H1F, &H5D
+End Sub
+

@@ -1,0 +1,7 @@
+
+sub PALNUM inline '(varnum%[384]) 
+ $inline &H55, &H89, &HE5, &H1E, &H31, &HC0, &HBA, &HC8, &H03, &HEE
+ $inline &HC5, &H76, &H06, &HB9, &H00, &H01, &HBA, &HC9, &H03, &HE3
+ $inline &H09, &HAC, &HEE, &HAC, &HEE, &HAC, &HEE, &H49, &HEB, &HF5
+ $inline &H1F, &H5D
+End Sub

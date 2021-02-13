@@ -1,0 +1,9 @@
+sub PSIMG inline '(NAMAFILE,SEGTUJ,OFFTUJ,NEXTOFF) 
+ $inline &H55, &H89, &HE5, &H1E, &HA1, &H00, &H00, &H50, &HC5, &H76
+ $inline &H12, &H8B, &H54, &H02, &H1F, &H1E, &H52, &HB8, &H00, &H3D
+ $inline &HCD, &H21, &H89, &HC3, &HB8, &H02, &H42, &H31, &HC9, &H31
+ $inline &HD2, &HCD, &H21, &H50, &HB8, &H00, &H42, &HCD, &H21, &H59
+ $inline &HB4, &H3F, &HC5, &H76, &H0A, &H8B, &H14, &HC5, &H76, &H0E
+ $inline &H8E, &H1C, &HCD, &H21, &HC4, &H7E, &H06, &H01, &HD0, &HAB
+ $inline &HB4, &H3E, &H5A, &H1F, &HCD, &H21, &H1F, &H5D
+End sub

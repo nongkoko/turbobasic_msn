@@ -1,0 +1,5 @@
+sub LNG2INT inline '(asf!,hi%,lo%)
+ $inline &H55,&H89,&HE5,&H1E,&HC5,&H76,&HE,&H66,&H8B,&H14
+ $inline &H89,&HD0,&HC4,&H7E,&H6,&HAB,&HB1,&H10,&H66,&HD3
+ $inline &HEA,&H89,&HD0,&HC4,&H7E,&HA,&HAB,&H1F,&H5D
+end sub

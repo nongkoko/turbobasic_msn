@@ -1,0 +1,4 @@
+sub HPSKBD inline 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H06, &H8A, &H04, &HB4
+ $inline &H0C, &HCD, &H21, &H1F, &H5D
+End sub

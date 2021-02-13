@@ -1,0 +1,4 @@
+sub PANSTR inline '(strin$,panjang%)
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0A, &HC4, &H7E, &H06
+ $inline &HA5, &H1F, &H5D
+End Sub

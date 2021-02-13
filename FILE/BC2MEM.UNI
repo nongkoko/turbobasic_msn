@@ -1,0 +1,6 @@
+sub BC2MEM inline '(no_handler,seg,off,banyak) 
+ $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H12, &H8B, &H1C, &HC5
+ $inline &H76, &H0A, &H8B, &H14, &HC5, &H76, &H06, &H8B, &H0C, &HC5
+ $inline &H76, &H0E, &H8E, &H1C, &HB8, &H00, &H3F, &HCD, &H21, &H1F
+ $inline &H5D
+End Sub
