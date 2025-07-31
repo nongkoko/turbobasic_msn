@@ -1,5 +1,22 @@
-sub GSRKN inline '(integer%, jumlah%) 
- $inline &H55, &H89, &HE5, &H1E, &HC5, &H76, &H0A, &HAD, &HC5, &H76
- $inline &H06, &H8A, &H0C, &HD3, &HE8, &HC4, &H7E, &H0A, &HAB, &H1F
- $inline &H5D
-End sub
+@echo off
+doskey copynuget=copy c:\users\livan.afryanto\nuget.config .
+doskey ddir=C:\Users\livan.afryanto\ddir\bin\Debug\net8.0\ddir.exe $*
+doskey gitbr=git branch $*
+doskey gitco=git checkout $*
+doskey gitcp=git cherry-pick $*
+doskey gitmg=git merge $*
+doskey gitst=git status
+doskey lihat=git remote -v
+doskey macros=doskey /macros
+doskey maintain=notepad c:\shortcuts\init.bat
+doskey origin=git config remote.origin.url $*
+doskey paths=path | splitter
+doskey pro=cd c:\source
+doskey pro02=cd c:\source\gitlab02
+doskey scuts=cd c:\shortcuts\init.bat
+doskey snippetfor=echo FOR /F "tokens=* USEBACKQ" g IN (`yourCommand`) DO (SET jjjj=g) $*
+doskey vscode="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe" $*
+doskey notebook=echo "C:\Users\livan.afryanto\OneDrive - PT. BANK OCBC NISP, Tbk\documents\notebook.txt" $*
+doskey download=cd C:\Users\livan.afryanto\Downloads
+doskey downloads=cd C:\Users\livan.afryanto\Downloads
+cls
